@@ -1,0 +1,65 @@
+ <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    #header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    #content {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .planet {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #555;
+      margin: 20px;
+      display: inline-block;
+    }
+
+    .planet:hover {
+      transform: scale(1.2);
+    }
+
+    .planet:nth-child(1) {
+      background-color: #3d6bf6;
+    }
+
+    .planet:nth-child(2) {
+      background-color: #f63d6b;
+    }
+
+    .planet:nth-child(3) {
+      background-color: #6bf63d;
+    }
+
+    .planet:nth-child(4) {
+      background-color: #f6a63d;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Temática Espacial</h1>
+    <p>Explorando o universo!</p>
+  </div>
+  
+  <div id="content">
+    <div class="planet"></div>
+    <div class="planet"></div>
+    <div class="planet"></div>
+    <div class="planet"></div>
+  </div>
+</body>
