@@ -1,49 +1,46 @@
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-    }
+/* Estilos para o layout geral do site */
 
-    #header {
-      text-align: center;
-      padding: 20px;
-    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
 
-    #content {
-      text-align: center;
-      margin-top: 50px;
-    }
+h1 {
+  margin: 0;
+}
 
-    .planet {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      background-color: #555;
-      margin: 20px;
-      display: inline-block;
-    }
+#connect-wallet {
+  float: right;
+}
 
-    .planet:hover {
-      transform: scale(1.2);
-    }
+#connect-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
 
-    .planet:nth-child(1) {
-      background-color: #3d6bf6;
-    }
+main {
+  padding: 20px;
+}
 
-    .planet:nth-child(2) {
-      background-color: #f63d6b;
-    }
+#about-section,
+#disclosure-section {
+  display: inline-block;
+  margin: 20px;
+}
 
-    .planet:nth-child(3) {
-      background-color: #6bf63d;
-    }
+/* Estilos específicos para cada seção */
 
-    .planet:nth-child(4) {
-      background-color: #f6a63d;
-    }
+#about-section img,
+#disclosure-section img {
+  width: 100px;
+  height: 100px;
+}
