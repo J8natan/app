@@ -1,3 +1,21 @@
+/* Estilos para o botão da Wallet */
+#connectWalletButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3d6bf6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#connectWalletButton:hover {
+  background-color: #2c4fa1;
+}
+
 body {
   background-color: #000;
   color: #fff;
