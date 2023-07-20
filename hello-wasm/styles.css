@@ -67,3 +67,18 @@ h1 {
   background-color: #f6a63d;
 }
 
+/* Estilos para o rodapé */
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  padding: 20px 0;
+}
+
+#footer img {
+  max-width: 100%;
+  height: auto;
+}
