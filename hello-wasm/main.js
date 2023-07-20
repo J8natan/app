@@ -33,3 +33,4 @@ async function connectPhantomWallet() {
 
 // Adicionando o evento de clique ao botão
 document.getElementById('connectWalletButton').addEventListener('click', connectPhantomWallet);
+
