@@ -104,7 +104,7 @@ function initWebGL() {
   gl.vertexAttribPointer(texCoordAttributeLocation, 2, gl.FLOAT, false, 0, 0);
 
   // Carregar a imagem como textura
-  texture = loadTexture('./img/PI.jpg');
+  texture = loadTexture('./img/image.jpg');
 
   // Definir a textura ativa
   gl.activeTexture(gl.TEXTURE0);
