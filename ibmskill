@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <script src="/script.js"></script>
+        <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </head>
+    <body>
+        <div class="container"
+            <h1 id="head-text">Task List</h1>
+            <div id="newtask">
+                <input type="text" placeholder="Add a task">
+                <button id="push">Add</button>
+            </div>
+        <div class="task"></div>
+
+    </body>
+
+
+
+
+*,
+*::before,
+*::after{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:#0F62FE;
+}
+#head-text{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #0f62fe;
+}
+.container{
+    width: 40%;
+    top: 30%;
+    left: 50%;
+    background: white;
+    border-radius: 1px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+.tasks.overflow{
+    overflow-y: auto;
+    max-height: 300px;
+}
+.task::-webkit-scrollbar{
+    width: 10px;
+}
+.task::-webkit-scrollbar-track {
+    background: #bae6ff;
+    border-radius: 25px;
+}
+.tasks::-webkit-scrollbar-thumb {
+    background: #0d75ec;
+    border-radius: 25px;
+}
